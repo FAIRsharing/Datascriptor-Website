@@ -223,6 +223,8 @@
 	ul.contact li
 	{
 		display: inline-block;
+		height: 1.25em;
+		width: 10em;
 		padding: 0em 0.20em;
 		font-size: 1.2em;
 	}
@@ -236,7 +238,7 @@
 	
 	ul.contact li a
 	{
-		color: rgba(255,255,255,1);
+		color: rgba(127,127,127,1);
 	}
 	
 	ul.contact li a:before
@@ -519,7 +521,7 @@
 	
 	#footer .title h2
 	{
-		color: rgba(255,255,255,1);
+		color: rgba(147,196,125,1);
 	}
 
 
@@ -528,7 +530,7 @@
 		letter-spacing: normal;
 		/* text-transform: capitalize; */
 		font-size: 1.6em;
-		color: rgba(255,255,255,0.2);
+		color: rgba(147,196,125,0.6);
 	}
 
 /*********************************************************************************/
