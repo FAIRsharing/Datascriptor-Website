@@ -245,7 +245,7 @@
 		width: 60px;
 		height: 60px;
 		line-height: 60px;
-		background: #6C2A6A;
+		background: #93C47D;
 		border-radius: 30px;
 		text-align: center;
 	}
@@ -260,7 +260,7 @@
 		display: inline-block;
 		margin-top: 2em;
 		padding: 0.6em 1em;
-		background: #6C2A6A;
+		background: #93C47D;
 		border-radius: 4px;
 		line-height: 1.8em;
 		text-decoration: none;
@@ -304,7 +304,7 @@
 	.title .byline
 	{
 		letter-spacing: 0.15em;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		font-weight: 400;
 		font-size: 1.1em;
 		color: #6F6F6F;
@@ -342,7 +342,7 @@
 	
 	#logo h1 a
 	{
-		color: #6C2A6A;
+		color: #93C47D;
 	}
 
 	#logo a
@@ -368,7 +368,7 @@
 		display: inline-block;
 		margin-bottom: 2em;
 		padding: 1em;
-		background: #6C2A6A;
+		background: #93C47D;
 		border-radius: 50%;
 		font-size: 1.6em;
 		color: #FFF;
@@ -437,7 +437,7 @@
 
 	#wrapper2
 	{
-		background: #6C2A6A;
+		background: #93C47D;
 	}
 
 	#wrapper3
@@ -526,7 +526,7 @@
 	#footer .title .byline
 	{
 		letter-spacing: normal;
-		text-transform: capitalize;
+		/* text-transform: capitalize; */
 		font-size: 1.6em;
 		color: rgba(255,255,255,0.2);
 	}
@@ -615,7 +615,7 @@
 	#portfolio .title .byline
 	{
 		letter-spacing: normal;
-		text-transform: capitalize;
+		/* text-transform: capitalize; */
 		font-size: 1.6em;
 		color: rgba(0,0,0,0.6);
 	}
