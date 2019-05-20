@@ -216,17 +216,18 @@
 	ul.contact
 	{
 		margin: 0;
-		padding: 1em 0em 0em 0em;
 		list-style: none;
+        width: 100%;
 	}
 	
 	ul.contact li
 	{
-		display: inline-block;
 		height: 1.25em;
 		width: 10em;
-		padding: 0em 0.20em;
 		font-size: 1.2em;
+		white-space: nowrap;
+        padding: 10px;
+		display: inline;
 	}
 	
 	ul.contact li span
@@ -238,7 +239,8 @@
 	
 	ul.contact li a
 	{
-		color: rgba(127,127,127,1);
+		color: rgba(147,196,125,1);
+		text-decoration: none;
 	}
 	
 	ul.contact li a:before
@@ -516,6 +518,8 @@
 	{
 		padding: 8em 0em 5em 0em;
 		text-align: center;
+		background-color: rgba(0, 0, 0, 0.57);
+        border-radius: 20px;
 	}
 
 	
@@ -541,19 +545,19 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		border-top: 1px solid rgba(255,255,255,0.08);
+        color: rgba(147,196,125,0.6);
 	}
 	
 	#copyright p
 	{
 		text-align: center;
-		color: rgba(255,255,255,0.2);
+        color: rgba(147,196,125,0.6);
 	}
 	
 	#copyright a
 	{
 		text-decoration: none;
-		color: rgba(255,255,255,0.4);
+        color: rgba(147,196,125,0.6);
 	}
 
 /*********************************************************************************/
