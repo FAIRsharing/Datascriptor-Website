@@ -303,6 +303,7 @@
 	{
 		font-size: 2.8em;
 		color: #261300;
+		padding-bottom: 0.6em;
 	}
 	
 	.title .byline
@@ -311,7 +312,8 @@
 		/* text-transform: uppercase; */
 		font-weight: 400;
 		font-size: 1.1em;
-		color: #6F6F6F;
+		/* color: #6F6F6F; */
+		color: #3C3C3C;
 	}
 
 /*********************************************************************************/
@@ -334,7 +336,7 @@
 
 	#logo
 	{
-		padding: 2em 0em;
+		padding: 0.2em 0em;
 		text-align: center;
 	}
 	
@@ -445,6 +447,13 @@
 	}
 
 	#wrapper3
+	{
+		overflow: hidden;
+		padding: 0em 0em 2em 0em;
+		background: #FFF;
+	}
+
+	#wrapper3-5
 	{
 		overflow: hidden;
 		padding: 0em 0em 2em 0em;
@@ -594,7 +603,7 @@
 	
 	#portfolio .box
 	{
-		text-align: center;
+		text-align: justify;
 		color: rgba(0,0,0,0.7);
 	}
 	
@@ -639,9 +648,11 @@
 	.column3,
 	.column4
 	{
-		width: 282px;
+		/* width: 282px; */
+		width: 564px;
 	}
-	
+
+	/*
 	.column1,
 	.column2,
 	.column3
@@ -651,6 +662,17 @@
 	}
 	
 	.column4
+	{
+		float: right;
+	} */
+
+	.column1
+	{
+		float: left;
+		margin-right: 24px;
+	}
+
+	.column2
 	{
 		float: right;
 	}
@@ -739,7 +761,7 @@
 
 .default-text
 {
-	color: #6F6F6F;
+	color: #3C3C3C;
 	letter-spacing: 0.05em;
 	/* text-transform: uppercase; */
 	font-weight: 400;
