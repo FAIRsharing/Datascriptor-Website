@@ -309,11 +309,13 @@
 	
 	.title .byline
 	{
-		letter-spacing: 0.15em;
-		/* text-transform: uppercase; */
+		/* letter-spacing: 0.15em;
+		text-transform: uppercase; */
+		line-height: 180%;
 		font-weight: 400;
 		font-size: 1.1em;
 		/* color: #6F6F6F; */
+		text-align: justify;
 		color: #3C3C3C;
 	}
 
