@@ -239,7 +239,8 @@
 	
 	ul.contact li a
 	{
-		color: rgba(147,196,125,1);
+		/* color: rgba(147,196,125,1); */
+		color: #46b73e;
 		text-decoration: none;
 	}
 	
@@ -449,7 +450,7 @@
 	#wrapper3
 	{
 		overflow: hidden;
-		padding: 0em 0em 2em 0em;
+		padding: 0em 0em 0em 0em;
 		background: #FFF;
 	}
 
@@ -474,7 +475,7 @@
 	{
 		overflow: hidden;
 		width: 1000px;
-		padding: 2em 100px 2em 100px;
+		padding: 2em 100px 1em 100px;
 		text-align: center;
 		color: rgba(255,255,255,0.4);
 	}
@@ -534,7 +535,8 @@
 	
 	#footer .title h2
 	{
-		color: rgba(147,196,125,1);
+		/* color: rgba(147,196,125,1); */
+		color: #40a039;
 	}
 
 
@@ -543,7 +545,8 @@
 		letter-spacing: normal;
 		/* text-transform: capitalize; */
 		font-size: 1.6em;
-		color: rgba(147,196,125,0.6);
+		/* color: rgba(147,196,125,0.6); */
+		color: #40a039;
 	}
 
 /*********************************************************************************/
@@ -554,19 +557,22 @@
 	{
 		overflow: hidden;
 		padding: 0.2em 0em;
-        color: rgba(147,196,125,0.6);
+        /* color: rgba(147,196,125,0.6); */
+		color: #40a039;
 	}
 	
 	#copyright p
 	{
 		text-align: center;
-        color: rgba(147,196,125,0.6);
+        /* color: rgba(147,196,125,0.6); */
+		color: #40a039;
 	}
 	
 	#copyright a
 	{
 		text-decoration: none;
-        color: rgba(147,196,125,0.6);
+        /* color: rgba(147,196,125,0.6); */
+		color: #40a039;
 	}
 
 /*********************************************************************************/
@@ -596,18 +602,18 @@
 /* Portfolio                                                                     */
 /*********************************************************************************/
 
-	#portfolio
+	.portfolio
 	{
-		padding-top: 8em;
+		padding-top: 4em;
 	}
 	
-	#portfolio .box
+	.portfolio .box
 	{
 		text-align: justify;
 		color: rgba(0,0,0,0.7);
 	}
 	
-	#portfolio h3
+	.portfolio h3
 	{
 		display: block;
 		padding-bottom: 1em;
@@ -616,18 +622,18 @@
 		color: rgba(0,0,0,0.9);
 	}
 
-	#portfolio .title
+	.portfolio .title
 	{
 		margin-bottom: 5em;
 		text-align: center;
 	}
 
-	#portfolio .title h2
+	.portfolio .title h2
 	{
 		color: rgba(0,0,0,0.8);
 	}
 
-	#portfolio .title .byline
+	.portfolio .title .byline
 	{
 		letter-spacing: normal;
 		/* text-transform: capitalize; */
@@ -635,10 +641,10 @@
 		color: rgba(0,0,0,0.6);
 	}
 	
-	#portfolio .icon
+	.portfolio .icon
 	{
 		display: inline-block;
-		margin-bottom: 2em;
+		margin-bottom: 0.8em;
 		font-size: 1.6em;
 		color: rgba(0,0,0,0.8);
 	}
@@ -755,15 +761,18 @@
 	{
 		text-align: center;
 		font-size: 1.6em;
-		color: #8DCB89;
+		/* color: #8DCB89; */
+		color: #40a039;
 		margin-bottom: 0.75em;
 	}
 
 .default-text
 {
 	color: #3C3C3C;
-	letter-spacing: 0.05em;
+	line-height: 180%;
+	/* letter-spacing: 0.05em; */
 	/* text-transform: uppercase; */
 	font-weight: 400;
 	font-size: 1.1em;
+	text-align: justify-all;
 }
